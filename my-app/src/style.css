@@ -1,0 +1,50 @@
+body{
+    padding: auto;
+    margin: auto;
+    background-image: linear-gradient(265.27311629345377deg, 	#1fd1f9,  #b621fe);
+}
+p{
+    color: red;
+}
+main>img{
+    height: 45%;
+    width: 20%;
+}
+form{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width:45%;
+    max-width: 1500px;
+    height:60vh;
+    margin-top: 20vh;
+    border-radius: 10%;
+}
+form>input{
+    width:50%;
+    height: 10%;
+}
+main{
+    display: flex;
+    justify-content:space-evenly;
+}
+button{
+    width:50%;
+    height:10%;
+    background-color:rgb(0, 0, 0);
+    color: white;
+    margin-top:2%;
+}
+.submit{
+    position: absolute;
+    z-index: 2;
+    width:max-content;
+    left: 45%;
+    right: 30%;
+}
+button:hover{
+    cursor: pointer;
+}
+
